@@ -67,6 +67,7 @@ export default function AdminOrdersPage() {
 
   return (
     <AdminLayout>
+    <div className='mt-20'>
       <h1 className="text-xl font-semibold mb-4">Kelola Pesanan</h1>
       {orders.length > 0 ? (
         <div className="overflow-x-auto font-bold"> 
@@ -109,6 +110,7 @@ export default function AdminOrdersPage() {
       ) : (
         <div>Tidak ada pesanan.</div>
       )}
+    </div>
     </AdminLayout>
   );
 }

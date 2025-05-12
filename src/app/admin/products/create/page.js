@@ -75,6 +75,7 @@ export default function AdminCreateProductPage() {
 
   return (
     <AdminLayout>
+    <div className='mt-20'>
       <h1 className="text-xl font-semibold mb-4">Tambah Produk Baru</h1>
       <Link href="/admin/products" className="inline-block mb-4 text-blue-500 hover:underline font-semibold text-l bg-gray-200 rounded">
         &lt;
@@ -167,6 +168,7 @@ export default function AdminCreateProductPage() {
           </div>
         </form>
       </div>
+    </div>  
     </AdminLayout>
   );
 }

@@ -37,6 +37,7 @@ function OrderSuccessContent() {
 
   return (
     <div className="container mx-auto py-8 px-8 text-gray-900 relative">
+      <div className='mt-20'>
       <h1 className="text-2xl font-bold mb-4">Pesanan Berhasil!</h1>
       {localOrderId && (
         <p className="mb-4">
@@ -51,7 +52,7 @@ function OrderSuccessContent() {
           Kembali ke Halaman Utama
         </Link>
       </p>
-
+      </div>
       {/* Konfeti */}
       <ReactConfetti
         width={windowSize.width}
