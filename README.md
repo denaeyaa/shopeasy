@@ -6,3 +6,4 @@ I developed this project to create an online shopping experience that's easy and
 
 ### Explore the Website!
 Curious what it looks like? Let's take a peek at some screenshots from the website:
+<a href="https://github.com/denaeyaa/shopeasy/preview"><b> HERE </b></a>
